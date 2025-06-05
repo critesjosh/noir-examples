@@ -5,7 +5,6 @@ This repo contains several Noir example projects. Each project lives in its own 
 ## Formatting
 - Format Noir circuits with `nargo fmt` when available.
 - Format Rust sources with `cargo fmt`.
-- Format JavaScript/TypeScript using Prettier (`prettier --write`). Prettier settings are in `.prettierrc` files inside `recursion` and `stealthdrop`.
 
 ## Testing
 - Always run the tests for any example you modify. Example test commands:
