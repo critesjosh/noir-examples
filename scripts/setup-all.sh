@@ -11,9 +11,9 @@ echo "Installing latest Barretenberg..."
 curl -sSL https://raw.githubusercontent.com/AztecProtocol/aztec-packages/refs/heads/master/barretenberg/bbup/install | bash
 export PATH="$HOME/.bbup/bin:$PATH"
 
-if [ -n "$ZSH_VERSION" ]; then
+if [ "${ZSH_VERSION-}" ]; then
   source ~/.zshrc
-elif [ -n "$BASH_VERSION" ]; then
+elif [ "${BASH_VERSION-}" ]; then
   source ~/.bashrc
 fi
 
