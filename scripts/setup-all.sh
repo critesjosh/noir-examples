@@ -10,6 +10,7 @@ noirup
 echo "Installing latest Barretenberg..."
 curl -sSL https://raw.githubusercontent.com/AztecProtocol/aztec-packages/refs/heads/master/barretenberg/bbup/install | bash
 export PATH="$HOME/.bbup/bin:$PATH"
+source ~/.bashrc
 bbup
 
 echo "\n--- Compiling all Noir circuits ---"
