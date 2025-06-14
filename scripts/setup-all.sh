@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+# Setup script for Chat GPT Codex
 set -euo pipefail
 
 # Install Noir (noirup) and Barretenberg (bbup)
