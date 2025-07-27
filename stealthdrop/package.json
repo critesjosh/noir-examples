@@ -15,7 +15,7 @@
     "gen": "bun run utils/generateAddresses.ts"
   },
   "dependencies": {
-    "@aztec/bb.js": "0.67.0",
+    "@aztec/bb.js": "0.87.0",
     "@nomicfoundation/hardhat-network-helpers": "1.0.12",
     "@nomicfoundation/hardhat-toolbox-viem": "3.0.0",
     "@nomicfoundation/hardhat-viem": "2.0.6",
@@ -39,7 +39,7 @@
     "typescript": "^5.0.0"
   },
   "resolutions": {
-    "@aztec/bb.js": "0.67.0"
+    "@aztec/bb.js": "0.87.0"
   },
   "trustedDependencies": [
     "@swc/core",
